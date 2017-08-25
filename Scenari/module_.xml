@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:ue xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:ueM>
+			<sp:title>Créez votre site web avec Wordpress</sp:title>
+		</op:ueM>
+		<sp:courseUa>
+			<op:courseUa>
+				<op:uM>
+					<sp:title>Créez votre site web avec Wordpress</sp:title>
+				</op:uM>
+				<sp:courseUc>
+					<op:expUc>
+						<op:uM>
+							<sp:title>Introduction</sp:title>
+						</op:uM>
+						<sp:pb>
+							<op:pb>
+								<sp:info>
+									<op:pbTi>
+										<sp:title>Pourquoi Wordpress ?</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Wordpress est un CMS, Content Manager System, un système de gestion de contenu en français.</sc:para>
+												<sc:para xml:space="preserve">L'objectif du CMS est de faciliter la création d'un site web, sa maintenance et son administration. C'est un outil développé par des informaticiens destiné aux non-informaticiens pour qu'ils puissent administrer un site web.</sc:para>
+												<sc:para xml:space="preserve">Wordpress va donc nous permettre de réaliser tout ce qu'un administrateur de site web fait au quotidien de façon simple : créer un site web, personnaliser son visuel, créer du contenu sur ce site web, le mettre à jour, etc.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Voici quelques sites web professionnels dévéloppés avec <sc:phrase role="url"><op:urlM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:url>https://wordpress.org/showcase/</sp:url></op:urlM>Wordpress</sc:phrase> en guise d'exemple.</sc:para>
+											</op:txt>
+										</sp:txt>
+									</op:res>
+								</sp:info>
+								<sp:info>
+									<op:pbTi>
+										<sp:title>Objectif du tutoriel</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">L'objectif du tutoriel est d'apprendre à maîtriser les bases de Wordpress : </sc:para>
+												<sc:itemizedList>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Installer wordpress ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Créer son site web ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Poster des articles ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Créer des pages web ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Créer un menu de navigation dans ces pages ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Personnaliser le contenu des pages et articles ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Personnaliser l'identité visuelle du site web.</sc:para>
+													</sc:listItem>
+												</sc:itemizedList>
+												<sc:para xml:space="preserve">Dans la suite du tutoriel, nous créerons nous un site web pour l'IUT GEA, mais vous pouvez prendre n'importe quel exemple, peu importe.</sc:para>
+											</op:txt>
+										</sp:txt>
+									</op:res>
+								</sp:info>
+							</op:pb>
+						</sp:pb>
+					</op:expUc>
+				</sp:courseUc>
+				<sp:courseUc>
+					<op:expUc>
+						<op:uM>
+							<sp:title>Installation</sp:title>
+						</op:uM>
+						<sp:pb>
+							<op:pb>
+								<sp:info>
+									<op:pbTi/>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">L'installation de Wordpress est très simple, il suffit tout d'abord de choisir sa langue puis de remplir le menu ci-dessous.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/0.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Vous pourrez ensuite administrer votre site web.</sc:para>
+											</op:txt>
+										</sp:txt>
+									</op:res>
+								</sp:info>
+							</op:pb>
+						</sp:pb>
+					</op:expUc>
+				</sp:courseUc>
+				<sp:courseUc>
+					<op:expUc>
+						<op:uM>
+							<sp:title>Administrer son site web</sp:title>
+						</op:uM>
+						<sp:pb>
+							<op:pb>
+								<sp:info>
+									<op:pbTi>
+										<sp:title>Le site web</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Voici donc votre site web Wordpress créé comme ci-dessous. Au centre, vos articles de blogs ou "posts" en anglais. A droite, la sidebar, la colonne latérale du site web.</sc:para>
+												<sc:para xml:space="preserve">Nous allons voir comment personnaliser ce site web, son aspect visuel, son contenu et ses menus.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/1.png">
+											<op:resInfoM/>
+										</sp:res>
+									</op:res>
+								</sp:info>
+								<sp:meth>
+									<op:pbTi>
+										<sp:title>Connexion</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Pour pouvoir personnaliser votre site web, il s'agit de vous connecter au site web en tant qu'administrateur.</sc:para>
+												<sc:para xml:space="preserve">Pour cela, il suffit de cliquer sur "Admin. du site" en bas de la colonne latérale du site web. Vous pouvez sinon ajouter "wp-admin/" à l'url affichée dans votre navigateur web.</sc:para>
+												<sc:para xml:space="preserve">Vous pourrez alors vous connecter avec le nom d'utilisateur et le mot de passe entrés lors de l'installation de votre site internet.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/2.png">
+											<op:resInfoM/>
+										</sp:res>
+									</op:res>
+								</sp:meth>
+								<sp:meth>
+									<op:pbTi>
+										<sp:title>Ajouter un article</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Dans un premier temps, nous allons enrichir notre site web d'un peu de contenu. Pour cela, nous allons ajouter un article (blog post).</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/3.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Nous allons remplir cet article avec un nom et du contenu textuel pertinent.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/4.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Une fois l'article publié, celui-ci apparait sur votre page d'accueil.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/5.png">
+											<op:resInfoM/>
+										</sp:res>
+									</op:res>
+								</sp:meth>
+								<sp:rem>
+									<op:pbTi>
+										<sp:title>Pages</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Rendez-vous dans le menu d'administration "Pages". Vous devriez trouver une "Page d'exemple". Vous pouvez regarder son contenu en cliquant sur modifier.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/6.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Retournez sur votre site web, êtes vous capable de trouver cette page ?</sc:para>
+											</op:txt>
+										</sp:txt>
+									</op:res>
+								</sp:rem>
+								<sp:meth>
+									<op:pbTi>
+										<sp:title>Ajouter un menu</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Pour permettre l'affichage des pages, il est nécessaire de créer un menu, puis de sélectionner les pages qui constituent ce menu, et enfin d'insérer ce menu dans notre site web.</sc:para>
+												<sc:para xml:space="preserve">Nous allons tout de suite réaliser ces opérations en quelques clics.</sc:para>
+												<sc:para xml:space="preserve">Rendez-vous tout d'abord dans "Apparence -&gt; Menu"</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/7.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Cliquer sur créer un nouveau menu. Dans notre cas, nous avons appelé notre menu "Les matières" puisqu'il sera constitué de pages décrivant chacune des matières présentes à l'IUT.</sc:para>
+												<sc:para xml:space="preserve">Sélectionnez ensuite la "Page d'exemple" et cliquez sur "Ajouter au menu".</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/8.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">La page apparaît alors dans le menu comme ci-dessous.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/9.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Enfin, pour que le menu apparaisse, il nous faut dire où nous allons placer le menu. Pour cela, cliquer sur "Gérer les emplacements".</sc:para>
+												<sc:para xml:space="preserve">Puis choisissez de mettre le menu en haut.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/10.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Si vous revenez sur votre site web, vous verrez alors le nouveau menu qui apparaît.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/11.png">
+											<op:resInfoM/>
+										</sp:res>
+									</op:res>
+								</sp:meth>
+								<sp:meth>
+									<op:pbTi>
+										<sp:title>Créer des pages</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Puisque nous savons maintenant comment afficher les pages existantes sur notre site web via un menu, nous allons pouvoir créer de nouvelles pages.</sc:para>
+												<sc:para xml:space="preserve">Rendez vous dans le menu Pages et cliquez sur "Ajoutez une page".</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/12.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Nous créons ici une page dédiée au programme d'informatique à l'IUT.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/13.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Nous ajoutons ensuite la page à notre menu créé précédemment.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/14.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">La page apparaît dans le menu ci-dessous. Le contenu de la page est visible en cliquant sur le lien dans le menu.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/15.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:res sc:refUri="/images/16.png">
+											<op:resInfoM/>
+										</sp:res>
+									</op:res>
+								</sp:meth>
+								<sp:meth>
+									<op:pbTi>
+										<sp:title>Peaufiner le visuel d'une page ou d'un article</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Comme sur un éditeur de texte classique comme Word qui est venu, a été vu, et vaincu en 1ère année, Wordpress propose des fonctionnalités permettant de mettre en gras, de souligner, de choisir sa taille de police, d'ajouter des liens etc...</sc:para>
+												<sc:para xml:space="preserve">Exemple :</sc:para>
+												<sc:para xml:space="preserve">Dans le menu Pages, nous créons une nouvelle Page dédiée à la comptabilité à l'IUT. </sc:para>
+												<sc:para xml:space="preserve">Nous souhaitons ajouter un lien web. Nous faisons comme ci-dessous : en mettant en surbrillance ce que nous souhaitons transformer en lien, puis en cliquant sur le symbole "Insérer/Editer un lien".</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/23.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Il suffit ensuite d'ajouter l'adresse du lien puis de la valider. Le texte mis en surbrillance devient alors bleu.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/24.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Cette barre ci-dessous nous permet donc de modifier notre texte. Le "B" sert à mettre le texte en gras, "I" en italique.</sc:para>
+												<sc:para xml:space="preserve">La troisième petite icone sur lequel on clique ici sert à ajouter une liste à puce quand la quatrième sert elle, à ajouter une liste numérotée.</sc:para>
+												<sc:para xml:space="preserve">La cinquième icône sous forme de guillemets peut être utilisée pour ajouter des citations.</sc:para>
+												<sc:para xml:space="preserve">Les trois icônes suivantes servent respectivement à aligner le texte : à gauche, au centre, à droite.</sc:para>
+												<sc:para xml:space="preserve">Enfin, les deux dernières icônes sont utilisées pour ajouter et supprimer un lien hypertexte comme nous venons de le voir.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/25.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Ci-dessous différents effets de style appliqués à notre texte.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/26.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Pour finir avec la mise en forme du texte, nous avons un menu déroulant qui nous permet de choisir une mise en forme déjà pré-formatée. Ainsi, on peut choisir parmi "Titre 1", "Titre 2", etc pour nos titres, et "paragraphe" pour le texte courant.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/27.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Ci-dessous un Titre en "Titre1", deux sous-titres en "Titre2" et du texte en "paragraphe".</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/28.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Et le résultat une fois la page publiée...</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/29.png">
+											<op:resInfoM/>
+										</sp:res>
+									</op:res>
+								</sp:meth>
+								<sp:meth>
+									<op:pbTi>
+										<sp:title>Ajouter des images</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Pour vous constituer une banque d'images utilisables dans votre site internet, vous pouvez utiliser l'onglet d'administration décrit ci-dessous, la bibliothèque media. Une fois téléchargée dans la bibliothèque média, les images sont réutilisables partout, dans vos pages et dans vos articles.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/30.png">
+											<op:resInfoM/>
+										</sp:res>
+									</op:res>
+								</sp:meth>
+								<sp:meth>
+									<op:pbTi>
+										<sp:title>Personnaliser votre site web</sp:title>
+									</op:pbTi>
+									<op:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Bon, on sait créer du contenu, rendre visible de contenu à travers les menus, personnaliser ce contenu grâce à l'éditeur de texte, y ajouter des images... Maintenant, reste plus qu'à personnaliser le visuel du site web pour qu'il vous ressemble. C'est pas la partie la plus facile, surtout pour les daltoniens, mais c'est ce qui vous démarquera des autres sites web développés avec wordpress.</sc:para>
+												<sc:para xml:space="preserve">Il s'agit de cliquer dans le menu "Apparence -&gt; Personnaliser" comme ci-dessous.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/17.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Ensuite, vous accédez au menu qui va vous permettre de personnaliser votre site web :</sc:para>
+												<sc:itemizedList>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Le thème, son aspect visuel global ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">L'identité du site : son titre, logo ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Les couleurs utilisées ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">La bannière ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Les menus, comme nous l'avons déjà fait ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">Les widgets qui permettent de personnaliser la colonne de droite et le footer.</sc:para>
+													</sc:listItem>
+												</sc:itemizedList>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/18.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">L'identité du site nous permet donc de personnaliser le titre, le logo et la phrase d'accroche du site web affichée en dessous du titre.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/19.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Les menus sont personnalisables comme nous l'avions déjà vu.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/20.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Les widgets nous permettent de personnaliser la colonne de droite et le bas de page avec :</sc:para>
+												<sc:itemizedList>
+													<sc:listItem>
+														<sc:para xml:space="preserve">une barre de recherche ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">les commentaires laissés sur les articles ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">les archives du site organisés par mois ;</sc:para>
+													</sc:listItem>
+													<sc:listItem>
+														<sc:para xml:space="preserve">les articles organisés par catégorie.</sc:para>
+													</sc:listItem>
+												</sc:itemizedList>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/21.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">Nous pouvons également ajouter des widgets comme des calendriers ou des images.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/22.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:txt>
+											<op:txt>
+												<sc:para xml:space="preserve">La liste des widgets est visible ci-dessous.</sc:para>
+											</op:txt>
+										</sp:txt>
+										<sp:res sc:refUri="/images/22_bis.png">
+											<op:resInfoM/>
+										</sp:res>
+										<sp:res sc:refUri="/images/23.png">
+											<op:resInfoM/>
+										</sp:res>
+									</op:res>
+								</sp:meth>
+							</op:pb>
+						</sp:pb>
+					</op:expUc>
+				</sp:courseUc>
+			</op:courseUa>
+		</sp:courseUa>
+	</op:ue>
+</sc:item>
